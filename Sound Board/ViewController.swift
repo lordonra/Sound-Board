@@ -20,6 +20,12 @@ class ViewController: UIViewController {
     @IBAction func buttonPressed(_ sender: UIButton) {
       playSound(soundName: sender.currentTitle!)
         print(sender.currentTitle)
+        sender.alpha = 0.5
+
+          //Code should execute after 0.2 second delay.
+          DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
+              //Bring's sender's opacity back up to fully opaque.
+              sender.alpha = 1.0
 }
     func playSound(soundName: String) {
         guard let url = Bundle.main.url(forResource: soundName, withExtension: "mp3") else { return }
@@ -41,3 +47,4 @@ class ViewController: UIViewController {
 
 }
 
+}

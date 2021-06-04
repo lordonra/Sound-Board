@@ -85,16 +85,8 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="21" translatesAutoresizingMaskIntoConstraints="NO" id="iyt-8v-Bi9">
                                                 <rect key="frame" x="67.5" y="100" width="279" height="72"/>
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4fv-TC-9nn">
-                                                        <rect key="frame" x="0.0" y="0.0" width="54" height="72"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="50"/>
-                                                        <state key="normal" title="💦"/>
-                                                        <connections>
-                                                            <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xJW-0j-3Yc"/>
-                                                        </connections>
-                                                    </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gCw-Dk-gqw">
-                                                        <rect key="frame" x="75" y="0.0" width="54" height="72"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="54" height="72"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                                         <state key="normal" title="🍆"/>
                                                         <connections>
@@ -102,7 +94,7 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yQE-4t-zGO">
-                                                        <rect key="frame" x="150" y="0.0" width="54" height="72"/>
+                                                        <rect key="frame" x="75" y="0.0" width="54" height="72"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                                         <state key="normal" title="👅"/>
                                                         <connections>
@@ -110,11 +102,19 @@
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M3m-KN-31u">
-                                                        <rect key="frame" x="225" y="0.0" width="54" height="72"/>
+                                                        <rect key="frame" x="150" y="0.0" width="54" height="72"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                                         <state key="normal" title="🍑"/>
                                                         <connections>
                                                             <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CWT-PU-Jc8"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4fv-TC-9nn">
+                                                        <rect key="frame" x="225" y="0.0" width="54" height="72"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                                        <state key="normal" title="💦"/>
+                                                        <connections>
+                                                            <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xJW-0j-3Yc"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
